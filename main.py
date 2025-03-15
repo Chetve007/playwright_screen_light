@@ -6,7 +6,7 @@ def highlight_element(page_: Page, element_):
         "(element) => {element.style['border'] = '3px solid red'; element.style['background'] = 'yellow'}",
         element_
     )
-    page_.screenshot(path="screenshot.png", full_page=True)
+    page_.screenshot(path="src/screenshot.png", full_page=True)
 
 
 def evaluate_handle_by_xpath(page_: Page, xpath: str):
